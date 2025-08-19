@@ -176,6 +176,10 @@ datatable(
 write_csv(complete_data, file = here("data", "SurvStat_complete_data.csv"))
 write_csv(complete_m, file = here("data", "SurvStat_male_data.csv"))
 write_csv(complete_f, file = here("data", "SurvStat_female_data.csv"))
+
+saveRDS(complete_data, file = here("data", "SurvStat_complete_data.rds"))
+saveRDS(complete_m, file = here("data", "SurvStat_male_data.rds"))
+saveRDS(complete_f, file = here("data", "SurvStat_female_data.rds"))
 ```
 
 ## Reproducibility

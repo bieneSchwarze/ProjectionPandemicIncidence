@@ -319,7 +319,7 @@ ui <- fluidPage(
       
       h4("Cohort & disease"),
       numericInput("N", "Sample size (N)",
-                   value = 1000, min = 1000,
+                   value = 1000, min = 500,
                    max = 20000, step = 500),
       sliderInput("minage_start", "Minimum age at start",
                   min = 0,  max = 100, value = 18),

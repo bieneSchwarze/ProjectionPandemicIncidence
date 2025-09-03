@@ -2,7 +2,9 @@
 
 ## Overview
 
-This is the repository for the scenario-based projection tool for the spread of the pandemic. This tool simulates COVID-19 infections in Germany (2020–2021) using weekly age- and sex-specific incidence data from RKI SurvStat and a simple MicSim state model (`Susceptible → Infected → Recovered`). The tool is developed within the Leibniz Lab for Pandemic Preparedness by the team at DIW (Alex Lepe and Sabine Zinn).
+This is the repository for the scenario-based projection tool for the spread of the pandemic. This tool simulates COVID-19 infections in Germany (2020–2021) using weekly age- and sex-specific incidence data from RKI SurvStat and a simple microsimulation model (`Susceptible → Infected → Recovered`). The tool is developed within the Leibniz Lab for Pandemic Preparedness by the team at DIW Berlin (Alex Lepe and Sabine Zinn).
+
+The app is also available as an online demo via [GitHub Pages](https://bieneschwarze.github.io/ProjectionPandemicIncidence/). Runtime may be slow, especially with larger sample sizes, so for optimal performance we recommend running the app locally by following the instructions below.
 
 ## Repository contents
 

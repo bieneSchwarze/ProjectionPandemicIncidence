@@ -66,18 +66,29 @@ If you run the tool with **all default settings**, the output should match the s
 
 ## Inputs (left panel)
 
--   **Sample size (N):** 1,000–20,000
+-   **Sample size (N):** 1,000–30,000
+
+    *Note: Values above 30,000 can also be used, but the simulation will run more slowly.*
+
 -   **Minimum/Maximum age at start:** age bounds for the initial cohort
+
 -   **Duration of illness (days):** used to define recovery timing, which controls “active infection” window
+
 -   **Intervention effectiveness (%):** percentage reduction in incidence
+
 -   **Intervention starts:** date when the intervention begins
+
 -   **Compare intervention against baseline:** run both a baseline scenario (without intervention) and an intervention scenario, and compare the results
+
 -   **Break down by sex:** Display plots and indicators by sex (Female/Male)
+
 -   **Show series** — select which time series to plot:
+
     -   *Infected (7-day total)*
     -   *Infected (active, user-set duration)*
     -   *Recovered (cumulative)*
     -   *Susceptible*
+
 -   **Run simulation:** executes the model(s) with current settings
 
 ### Outputs
